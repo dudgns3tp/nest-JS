@@ -89,3 +89,18 @@ bootstrap();
 
 이제 ctrl+c키로 서버를 다운시키고 `yarn start:dev` 명령어를 실행시켜 보세요
 이제부터 프로젝트 코드 변경 사항이 있을때마다 서버가 재시동 됩니다.
+
+### CRUD generator
+
+nestJS에서는 CRUD 제네레이터를 제공합니다. CRUD제네레이터를 이용하여 리소스를 반복해서 생성해야하는 번거러움을 줄일 수 있어요,
+우선 User 엔티티에 대한 리소스를 생성해 보겠습니다. 다음 명령어를 실행하세요
+
+``` nest g resource user ````
+
+명령어를 실행시키면 터미널에 두가지 질문이 나오는데 아래 이미지와 같이 입력해 줍니다.
+
+![image](https://user-images.githubusercontent.com/40652160/132088460-b3ab3648-158d-480a-afe7-793185277bd9.png)
+
+명령어를 성공적으로 실행시켰다면 프로젝트 구조를 확인해보세요.
+
+![image](https://user-images.githubusercontent.com/40652160/132088503-3d06aaba-ab5c-4a53-b551-5975872b416f.png)
